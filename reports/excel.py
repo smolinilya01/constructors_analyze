@@ -10,6 +10,7 @@ def report() -> None:
     """Формирование еженедельных отчетов в эксель файлах"""
     report_path = r".\support_data\reports\Анализ_конструкторов.xlsm"
     macro(report_path)
+    logging.info("Report is done.")
 
 
 def macro(path_: str) -> None:
